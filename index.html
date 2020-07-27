@@ -6,5 +6,13 @@
   </head>
   <body>
     Hey Azure Static Apps
+
+    <script>
+      fetch('/api/HelloWorld')
+        .then(response => response.json())
+        .then(data => console.log(data));
+    </script>
+
+
   </body>
 </html>
